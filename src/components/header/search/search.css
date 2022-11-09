@@ -1,0 +1,26 @@
+/*Form*/
+.form_group {
+    display: flex;
+}
+
+.form_group input {
+    margin-right: 35px;
+}
+
+fieldset {
+    width: 726px;
+    background: rgba(199, 238, 237, 0.05);
+    border: 1px solid #CACACA;
+    border-radius: 16px;
+	padding: 13px 37px;
+}
+
+input[type="text"],
+input[type="date"] {
+    border: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+    max-width: 167px;
+    padding: 0.5em 0.6em;
+    margin-bottom: 0.5em;
+}

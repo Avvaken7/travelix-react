@@ -6,7 +6,7 @@
 }
 
 .navigation_logo:hover {
-    color: #666;
+    color: #474747;
     transition: all 0.6s cubic-bezier(0, 0, 0.23, 1);
 }
 
@@ -16,7 +16,7 @@
 }
 
 .navigation_logo span {
-    color:#666666;
+    color:#474747;
 }
 
 .navigation {

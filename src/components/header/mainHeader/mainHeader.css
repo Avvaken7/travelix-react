@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_text-title {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.main_text-subtitle {
+    margin: 30px 0;
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.main_text-description {
+    color: #666666;
+    line-height: 26px;
+    margin-bottom: 110px;
+}
+
+.main_text-title span {
+    color: #DB6300;
+}
+
+.main_img {
+    position: relative;
+}
+
+.main_img img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main_text {
+    margin-top: 140px;
+    margin-right: 600px;
+}
+
+/*square*/
+.square {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 63vw;
+    height: 800px;
+    background-color: #FFFCF6;
+    z-index: -1;
+}
