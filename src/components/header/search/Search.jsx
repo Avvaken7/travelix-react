@@ -18,7 +18,9 @@ const Search = () => {
                     <label htmlFor="out">Check out<br/>
                         <input type="date" id="out" name="out" placeholder="Add dates" />
                     </label>                    
-                    <input type="submit" />
+                    <button type='submit'>Search
+                    <img src="../images/search.svg" alt="search" />
+                    </button>
                 </div>
             </form>
         </fieldset>
