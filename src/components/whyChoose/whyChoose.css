@@ -1,5 +1,49 @@
 .choose {
     margin-top: 88px;
+    margin-bottom: 187px;
     display: flex;
     flex-direction: row;
 } 
+
+.choose_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.choose_text-main {
+    margin-bottom: 14px;
+}
+
+.choose_text-description {
+    margin-bottom: 45px;
+}
+
+.choose_text-point {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.choose_text-point--wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.choose_text-point--wrap:last-child {
+    margin-bottom: 0;
+}
+
+.choose_text-point--descr {
+    margin-left: 31px;
+}
+
+.choose_text-point--descr h3 {
+    color: #474747;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}

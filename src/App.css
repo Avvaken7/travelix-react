@@ -14,3 +14,16 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.secondary-text {
+    font-size: 36px;
+    line-height: 52px;
+    color: #474747;
+    font-weight: 700;
+}
+
+.descr-text {
+    line-height: 26px;
+    color: #666;
+    font-weight: 400;
+}
