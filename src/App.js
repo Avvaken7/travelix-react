@@ -5,7 +5,7 @@ import MainHeader from './components/header/mainHeader/MainHeader';
 import Search from './components/header/search/Search';
 import WhyChoose from './components/whyChoose/WhyChoose';
 import OurServices from './components/ourServices/OurServices';
-import CardSlider from './components/cardSlider/CardSlider';
+import Slider from './components/slider/Slider';
 import Booking from './components/booking/Booking';
 import Feedback from './components/feedback/Feedback';
 import Footer from './components/footer/Footer';
@@ -20,7 +20,7 @@ function App() {
       <Search />
       <WhyChoose />
       <OurServices />
-      <CardSlider />
+      <Slider />
       <Booking />
       <Feedback />
       <Footer />

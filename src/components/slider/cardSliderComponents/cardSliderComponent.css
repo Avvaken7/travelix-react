@@ -1,0 +1,49 @@
+.slider_card {
+    margin-right: 30px;
+    border-radius: 16px;
+}
+
+.slider_card:last-child {
+    margin-right: 0;
+}
+
+.slider_card-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider_card-title {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+
+.slider_card-price {
+    color: #DB6300;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.slider_card-rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.slider_card-view {
+    color: #CACACA;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.star {
+    font-style: normal;
+}
+
+.star-rating {
+    margin-right: 15px;
+}
