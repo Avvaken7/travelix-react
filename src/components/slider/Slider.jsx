@@ -2,10 +2,11 @@ import React from 'react';
 import CardSliderComponent from './cardSliderComponents/CardSliderComponent';
 import StarRating from "./rating/StarRating";
 
+
 import './slider.css';
 
 
-const Slider = ({ img, alt, title, price, description, rating, view }) => {
+const Slider = () => {
 
     const sliderImages = [
         {
@@ -79,3 +80,4 @@ const Slider = ({ img, alt, title, price, description, rating, view }) => {
 }
 
 export default Slider;
+

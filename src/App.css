@@ -27,3 +27,9 @@
     color: #666;
     font-weight: 400;
 }
+
+.another-text {
+    color: #666;
+    font-weight: 700;
+    line-height: 26px;
+}
