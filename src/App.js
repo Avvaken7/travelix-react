@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='container'>
+    <>
       <Navigation />
       <MainHeader />
       <Search />
@@ -24,7 +24,7 @@ function App() {
       <Booking />
       <Feedback />
       <Footer />
-    </div>      
+    </>      
   );
 }
 

@@ -5,7 +5,7 @@ import './mainHeader.css';
 
 const MainHeader = () => {
     return (
-        <main>
+        <main className='container'>
             <div className="square"></div>
             <div className="main_text">
                 <h1 className="main_text-title">Happiness Is <span>Travelling</span></h1>

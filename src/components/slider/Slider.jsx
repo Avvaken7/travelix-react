@@ -1,6 +1,6 @@
 import React from 'react';
 import CardSliderComponent from './cardSliderComponents/CardSliderComponent';
-import StarRating from "./rating/StarRating";
+import StarRating from '../rating/StarRating';
 
 
 import './slider.css';
@@ -49,7 +49,7 @@ const Slider = () => {
     ]
 
     return (
-        <section className='card-slider'>
+        <section className='card-slider container'>
             <div className="card-slider_text">
                 <p className='descr-text'>Recomanded Packages</p>
                 <h2 className="secondary-text">Best Value Trips</h2>

@@ -1,12 +1,12 @@
 import React from 'react';
-import StarRating from "../slider/rating/StarRating";
+import StarRating from "../rating/StarRating";
 
 import './booking.css';
 
 
 const Booking = () => {
     return (
-        <section className='booking-section'>
+        <section className='booking-section container'>
             <div className="booking">
                 <div className="booking_text">
                     <p className="another-text">Easy and Fast</p>

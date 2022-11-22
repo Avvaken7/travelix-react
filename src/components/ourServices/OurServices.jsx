@@ -38,23 +38,25 @@ const OurServices = () => {
 
     return (
         <section className='ourServices'>
-            <div className="services_text">
-                <p className='descr-text'>Best Services</p>
-                <h2 className="secondary-text">Our Services</h2>
-                <p className='descr-text'>There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>
-            </div>
-            <div className="service_cards">
-                {
-                    cards.map(card => (
-                        <Card
-                            key={card.id}
-                            img={card.img}
-                            text={card.text}
-                            descr={card.descr}
-                            alt={card.alt}
-                        />
-                    ))
-                }
+            <div className="container">
+                <div className="services_text">
+                    <p className='descr-text'>Best Services</p>
+                    <h2 className="secondary-text">Our Services</h2>
+                    <p className='descr-text'>There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>
+                </div>
+                <div className="service_cards">
+                    {
+                        cards.map(card => (
+                            <Card
+                                key={card.id}
+                                img={card.img}
+                                text={card.text}
+                                descr={card.descr}
+                                alt={card.alt}
+                            />
+                        ))
+                    }
+                </div>
             </div>
         </section>
     )

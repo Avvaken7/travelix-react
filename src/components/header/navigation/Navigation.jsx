@@ -14,7 +14,7 @@ const Navigation = () => {
     ]
 
     return (
-        <header>
+        <header className='container'>
             <div className="navigation">
                 <a href="#" className="navigation_logo">Travelix <span>Pro</span></a>
                 <nav className="nav">

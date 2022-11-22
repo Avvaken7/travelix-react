@@ -32,7 +32,7 @@ main {
 
 .main_img img {
     position: absolute;
-    right: 0;
+    right: -6px;
     top: 0;
 }
 
