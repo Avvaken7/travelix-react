@@ -1,6 +1,5 @@
 import React from 'react';
 import FeedbackCards from './feedbackCard/FeedbackCards';
-import StarRating from '../rating/StarRating';
 
 
 import './feedback.css';
