@@ -8,6 +8,8 @@ const MainHeader = () => {
         <main className='container'>
             <div className="square"></div>
             <div className="main_text">
+                <img src="./images/sun_left.svg" alt="sun-left" /> 
+                <img src="./images/sun_right.svg" alt="sun-right" />                 
                 <h1 className="main_text-title">Happiness Is <span>Travelling</span></h1>
                 <h2 className="main_text-subtitle">No matter where in the world you want to go, we can help get you there</h2>
                 <p className="descr-text main_text-description">Travel Agency Threats and Opportunities. The Perspective of Successful OwnersJoin the leader in small-ship cruising on the Great Lakes, and enjoy fabulous inclusions such as a pre-voyage hotel.</p>

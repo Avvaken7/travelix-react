@@ -39,6 +39,19 @@ main {
 .main_text {
     margin-top: 140px;
     margin-right: 600px;
+    position: relative;
+}
+
+.main_text img:nth-child(1) {
+    position: absolute;
+    left: -368px;
+    top: -70px;
+}
+
+.main_text img:nth-child(2) {
+    position: absolute;
+    right: -966px;
+    top: -70px;
 }
 
 /*square*/

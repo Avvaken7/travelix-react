@@ -73,7 +73,8 @@
 .nav_link-btn {
     text-decoration: none;
     border-radius: 10px;
-    padding: 12px 55px;
+    border: 1px solid #DB6300;
+    padding: 11px 54px;
     background-color: #DB6300;
     color: #fff;
     font-weight: 700;
@@ -82,5 +83,7 @@
 
 .nav_link-btn:hover {
     transition: all 0.6s cubic-bezier(0, 0, 0.23, 1);
-    background-color: #ec7d22;
+    background-color: transparent;
+    border: 1px solid #DB6300;
+    color: #DB6300;
 }

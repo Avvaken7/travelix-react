@@ -59,7 +59,7 @@ const FeedbackCards = () => {
                     justifyContent: 'center',
                 }}
             >
-                <Carousel height={'100vh'} width={'78vw'} yOrigin={42} yRadius={48}>
+                <Carousel height={'900px'} width={'78vw'} yOrigin={42} yRadius={48}>
                     {
                         feedbackCards.map((item, index) => (
                             <div key={index} style={style}>

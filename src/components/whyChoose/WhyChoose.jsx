@@ -7,7 +7,7 @@ const WhyChoose = () => {
     return (
         <section className="choose">
             <div className="choose_img">
-                <img src="../images/car.svg" alt="car" />
+                <img src="../images/car.png" alt="car" />
             </div>
             <div className="choose_text">
                 <h2 className='secondary-text choose_text-main'>Why Choose Us?</h2>

@@ -17,24 +17,22 @@
 
 .form_group button[type="submit"] {
     display: block;
-    /* height: 50px;
-    width: 120px; */
     padding: 12px 17px 12px 21px;
     background-color: #DB6300;
     border-radius: 8px;
-    border: none;
     color: #fff;
     font-weight: 700;
     z-index: 1;
+    margin-top: 11px;
 }
 
 .form_group button[type="submit"]:hover {
-    background-color: #ec7d22;;
+    background-color: #ec7d22;
     transition: all 0.6s cubic-bezier(0, 0, 0.23, 1);
     cursor: pointer;
 }
 
-.form_group button[type="submit"] img {
+.form_group-img {
     vertical-align: middle;
     margin-left: 5px;
 }
@@ -49,10 +47,14 @@ fieldset {
 
 input[type="text"],
 input[type="date"] {
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 8px;
-    box-sizing: border-box;
     max-width: 167px;
     padding: 0.5em 0.6em;
-    margin-bottom: 0.5em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+input[type="text"]::placeholder {
+    font-size: 14px;
+    color: #CACACA;
 }

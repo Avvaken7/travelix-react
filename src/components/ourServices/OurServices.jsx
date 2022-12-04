@@ -40,6 +40,8 @@ const OurServices = () => {
         <section className='ourServices'>
             <div className="container">
                 <div className="services_text">
+                    <img src="./images/serv_psevdo1.svg" alt="sunone" />
+                    <img src="./images/serv_psevdo2.svg" alt="suntwo" />
                     <p className='descr-text'>Best Services</p>
                     <h2 className="secondary-text">Our Services</h2>
                     <p className='descr-text'>There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>

@@ -64,7 +64,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footer_copyright">
-                        <hr />
+                        <hr className='footer_copyright-line'/>
                         <p className='footer_copyright-text'>Copyright 2021, All Rights Reserved By Travelix Pro </p>
                     </div>
                 </div>

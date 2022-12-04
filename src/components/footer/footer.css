@@ -173,3 +173,8 @@ input:focus {
     color: #DB6300;
     transition: all .5s;
 }
+
+.footer_copyright-line {
+    border: 1px solid #fff;
+    margin-bottom: 17px;
+}
