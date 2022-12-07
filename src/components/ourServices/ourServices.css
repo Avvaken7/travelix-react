@@ -45,3 +45,30 @@
     color: #fff;
     background-color: #DB6300;
 }
+
+/**Media queries**/
+
+@media (max-width: 768px) {
+
+    .services_text img {
+        display: none;
+    }
+
+    .service_cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .services-cards_item {
+        min-width: 40%;
+    }
+
+    .services-cards_item:nth-child(2) {
+        margin: 0 0 40px 0;
+    }
+
+    .services-cards_item:nth-child(1) {
+        margin: 0 30px 40px 0;
+    }
+
+}

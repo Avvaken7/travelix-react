@@ -59,8 +59,35 @@ main {
     position: absolute;
     left: 0;
     top: 0;
-    width: 63.32vw;
+    width: 1217px;
     height: 800px;
     background-color: #FFFCF6;
     z-index: -1;
+}
+
+/**Media queries**/
+
+@media (max-width: 768px) {
+
+    .main_img {
+        display: none;
+    }
+
+    .main_text {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .main_text img {
+        display: none;
+    }
+
+    .square {
+        display: none;
+    }
+
+    .main_text-description {
+        margin-bottom: 50px;
+    }
+
 }

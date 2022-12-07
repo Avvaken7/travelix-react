@@ -17,7 +17,22 @@ const Navigation = () => {
         <header className='container'>
             <div className="navigation">
                 <a href="#" className="navigation_logo">Travelix <span>Pro</span></a>
-                <nav className="nav">
+                <div className="burger-menu">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label className="menu-btn" htmlFor="menu-toggle">
+                        <span></span>
+                    </label>
+                    <ul className="menubox">
+                        {
+                            listItems.map((item, index) => {
+                                return <li key={index}>
+                                    <a href="#" className='menu-item'>{item}</a>
+                                </li>
+                            })
+                        }
+                    </ul>
+                </div>
+                <nav className="nav" id='nav'>
                     <ul className='nav_list'>
                         {
                             listItems.map((item, index) => {
