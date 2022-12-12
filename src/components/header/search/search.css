@@ -68,6 +68,7 @@ input[type="text"]::placeholder {
 
     .form_group button[type="submit"] {
         margin-top: 17px;
+        z-index: 0;
     }
 
     .form_group {
@@ -82,5 +83,11 @@ input[type="text"]::placeholder {
         width: 97%;
         padding: 0.7em 0.7em;
         margin: 0.6em 0 0.6em 0;
+    }
+}
+
+@media (max-width: 425px) {
+    input[type="text"], input[type="date"] {
+        width: 93%;
     }
 }

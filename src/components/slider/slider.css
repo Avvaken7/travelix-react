@@ -10,7 +10,30 @@
 @media (max-width: 768px) {
 
     .card-slider_items {
+        display: flex;
         flex-wrap: wrap;
-    }    
+        justify-content: center;
+    }
+
+    .card-slider_text {
+        margin-bottom: 30px;
+    }
+
+    .slider_card {
+        margin-right: 0;
+    }
+
+    .slider_card:nth-child(1),
+    .slider_card:nth-child(2) {
+        margin: 0 0 40px 0;
+    }
+
+    .slider_card-head {
+        flex-direction: column;
+    }
+
+    .slider_card-description {
+        text-align: center;
+    } 
 
 }

@@ -63,3 +63,18 @@
     }
 
 }
+
+@media (max-width: 425px) {
+    .slider_card {
+        max-width: 100%;
+    }
+
+    .slider_card:nth-child(3) {
+        margin: 0 0 40px 0;
+    }
+
+    .slider_card-description {
+        padding: 0 60px;
+    }
+}
+

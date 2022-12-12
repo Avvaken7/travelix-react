@@ -7,3 +7,10 @@
     padding-top: 50px;
 }
 
+/**Media queries**/
+
+@media (max-width: 768px) {
+    .feedback {
+        display: none;
+    }
+}

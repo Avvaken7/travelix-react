@@ -102,7 +102,7 @@
     width: 26px;
     height: 26px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
 }
 
 .menu-btn>span,
@@ -148,20 +148,22 @@
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    transition-duration: .25s;
+    transition-duration: .35s;
 }
 
 .menu-item:hover {
     background-color: #CFD8DC;
 }
 
-
 #menu-toggle {
     opacity: 0;
+}
+
+#menu-toggle:checked~.menu-btn {
+    position: fixed;
 }
 
 #menu-toggle:checked~.menu-btn>span {
@@ -183,6 +185,8 @@
     left: 0;
 }
 
+
+
 /**Media queries**/
 
 @media (max-width: 768px) {
@@ -196,8 +200,15 @@
     }
 
     .navigation_logo {
+        display: block;
         padding: 20px 0 0 0;
         z-index: 2;
     }
 
+}
+
+@media (max-width: 425px) {
+    .main_text {
+        text-align: center;
+    }
 }

@@ -140,3 +140,49 @@
 .booking_img-user:last-child {
     margin-bottom: 0;
 }
+
+/**Media queries**/
+
+@media (max-width: 768px) {
+    .booking {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .booking_text {
+        margin-bottom: 30px;
+    }
+
+    .booking_img-card {
+        z-index: 0;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .booking_img-users {
+        display: none;
+    }
+
+    .booking_img-card {
+        font-size: 20px;
+        bottom: -160px;
+    }
+
+    .booking_img-head {
+        margin-bottom: 10px;
+    }
+
+    .booking_img-plane {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .booking_img-description {
+        font-size: 14px;
+    }
+
+    .booking_img-link {
+        font-size: 16px;
+    }
+}

@@ -67,7 +67,7 @@ const Booking = () => {
                             </div>
                         </div>
                     </div>
-                    <img src="./images/plane.svg" alt="plane" />
+                    <img src="./images/plane.svg" alt="plane" className='booking_img-plane'/>
                     <div className="booking_img-card">
                         <div className="booking_img-head">
                             <h3 className="booking_img-title">Trip To Tailand</h3>
