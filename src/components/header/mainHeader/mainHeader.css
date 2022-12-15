@@ -67,6 +67,37 @@ main {
 
 /**Media queries**/
 
+@media (max-width: 1024px) {
+
+    .main_img {
+        position: absolute;
+        right: -33px;
+        top: 100px;
+    }
+
+    .main_img img {
+        position: relative;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .main_text {
+        margin-top: 33px;
+    }
+
+    .main_text-description {
+        margin-bottom: 100px;
+    }
+
+    .position-images {
+        display: none;
+    }
+
+    .search fieldset {
+        width: auto;
+    }
+}
+
 @media (max-width: 768px) {
 
     .main_img {
@@ -78,7 +109,7 @@ main {
         padding: 20px 0;
     }
 
-    .main_text img {
+    .position-images {
         display: none;
     }
 

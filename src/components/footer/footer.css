@@ -86,16 +86,23 @@ footer {
 
 /**List style for contact links**/
 
-.footer_navigation-contacts:nth-child(1) {
-    list-style-image: url('/public/images/email.svg');
+.footer_navigation-contacts::before {
+    content: '';
+    position: relative;
+    right: 10px;
+    padding: 3px 0px 3px 17px;
 }
 
-.footer_navigation-contacts:nth-child(2) {
-    list-style-image: url('/public/images/phone.svg');
+.footer_navigation-contacts:nth-child(2)::before {
+    background: url('/public/images/phone.svg') no-repeat 0 5px transparent;
 }
 
-.footer_navigation-contacts:nth-child(3) {
-    list-style-image: url('/public/images/map.svg');
+.footer_navigation-contacts:nth-child(3)::before {
+    background: url('/public/images/map.svg') no-repeat 0 3px transparent;
+}
+
+.footer_navigation-contacts:nth-child(1)::before {
+    background: url('/public/images/email.svg') no-repeat 0 8px transparent;
 }
 
 /**Hover effect for footer links**/
@@ -124,7 +131,7 @@ footer {
 .footer_navigation-social {
     display: flex;
     flex-direction: row;
-    margin: 28px 0 0 -25px;
+    margin: 28px 0 0 -12px;
 }
 
 .footer_navigation-social a {
@@ -133,6 +140,12 @@ footer {
 
 .footer_navigation-social a:last-child {
     margin-right: 0;
+}
+
+.footer_navigation-social img:hover {
+    transition: all .7s;
+    box-shadow: 0 3px 18px 3.5px #ffffff;
+    border-radius: 50%;
 }
 
 /** Subscribe form style**/
@@ -227,7 +240,7 @@ input:focus {
     .footer_subscribe {
         margin-bottom: 50px;
     }
-    
+
 }
 
 @media (max-width: 425px) {
@@ -252,6 +265,23 @@ input:focus {
     }
 
     .footer_navigation-item {
+        text-align: center;
         min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer_navigation-title {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .footer_navigation-social {
+        justify-content: center;
+        margin: 48px 0 0 0;
+    }
+
+    .footer_copyright {
+        padding: 0 48px 50px;
+        line-height: 30px;
     }
 }

@@ -13,29 +13,29 @@ const Booking = () => {
                     <h2 className="secondary-text">Book Next Trip in 3 Easy Steps</h2>
                     <p className='descr-text'>There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>
                     <div className="booking_text-items">
-                        <div className="choose_text-point--wrap">
-                            <div className="choose_text-point--img">
+                        <div className="booking_text-point--wrap">
+                            <div className="booking_text-point--img">
                                 <img src="../images/geo.png" alt="destination" />
                             </div>
-                            <div className="choose_text-point--descr">
+                            <div className="booking_text-point--descr">
                                 <h3>Choose Destionation</h3>
                                 <p className='descr-text'>There was consensus, not surprisingly, that quality traditional travel agencies provide value.</p>
                             </div>
                         </div>
-                        <div className="choose_text-point--wrap">
-                            <div className="choose_text-point--img">
+                        <div className="booking_text-point--wrap">
+                            <div className="booking_text-point--img">
                                 <img src="../images/payments.png" alt="payments" />
                             </div>
-                            <div className="choose_text-point--descr">
+                            <div className="booking_text-point--descr">
                                 <h3>Make Payment</h3>
                                 <p className='descr-text'>There was consensus, not surprisingly, that quality traditional travel agencies provide value.</p>
                             </div>
                         </div>
-                        <div className="choose_text-point--wrap">
-                            <div className="choose_text-point--img">
+                        <div className="booking_text-point--wrap">
+                            <div className="booking_text-point--img">
                                 <img src="../images/date.png" alt="date" />
                             </div>
-                            <div className="choose_text-point--descr">
+                            <div className="booking_text-point--descr">
                                 <h3>Reach Airport on Selected Date</h3>
                                 <p className='descr-text'>There was consensus, not surprisingly, that quality traditional travel agencies provide value.</p>
                             </div>
