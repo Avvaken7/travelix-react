@@ -111,3 +111,17 @@
     }
 
 }
+
+@media  (max-width: 424px) {
+
+    .choose {
+        padding: 0 20px;
+        margin: 50px 0 80px 0;
+    }
+
+    .choose_img {
+        display: none;
+    }
+
+}
+    

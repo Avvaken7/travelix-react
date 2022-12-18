@@ -6,7 +6,7 @@ const CardSliderComponent = ({ img, alt, title, price, description, rating, view
 
     return (
         <div className="slider_card">
-            <img src={img} alt={alt} className="slider_card-image" />
+            <a href="/"><img src={img} alt={alt} className="slider_card-image" /></a>
             <div className="slider_card-head">
                 <h3 className="slider_card-title">{title}</h3>
                 <span className="slider_card-price">{price}$</span>

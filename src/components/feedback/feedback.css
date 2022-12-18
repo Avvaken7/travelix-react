@@ -8,8 +8,7 @@
 }
 
 /**Media queries**/
-
-@media (max-width: 768px) {
+@media screen and (min-width: 325px) and (max-width: 1024px) {
     .feedback {
         display: none;
     }

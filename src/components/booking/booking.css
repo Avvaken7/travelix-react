@@ -159,7 +159,20 @@
 }
 
 /**Media queries**/
-@media screen and (min-width: 425px) and (max-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .booking_img-users {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .booking_img {
+        display: none;
+    }
+    
     .booking {
         flex-direction: column;
         align-items: flex-start;
@@ -174,31 +187,9 @@
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 424px) {
 
-    .booking_img-users {
+    .booking_img {
         display: none;
-    }
-
-    .booking_img-card {
-        font-size: 20px;
-        bottom: -160px;
-    }
-
-    .booking_img-head {
-        margin-bottom: 10px;
-    }
-
-    .booking_img-plane {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .booking_img-description {
-        font-size: 14px;
-    }
-
-    .booking_img-link {
-        font-size: 16px;
     }
 }

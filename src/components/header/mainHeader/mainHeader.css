@@ -66,12 +66,11 @@ main {
 }
 
 /**Media queries**/
-
-@media (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     .main_img {
         position: absolute;
-        right: -33px;
+        right: 0px;
         top: 100px;
     }
 
@@ -96,9 +95,13 @@ main {
     .search fieldset {
         width: auto;
     }
+
+    .square {
+        display: none;
+    }
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
 
     .main_img {
         display: none;
@@ -121,4 +124,24 @@ main {
         margin-bottom: 50px;
     }
 
+}
+
+@media (max-width: 424px) {
+     
+    .position-images {
+        display: none;
+    }
+
+    .main_img {
+        display: none;
+    }
+
+    .square {
+        display: none;
+    }
+
+    .main_text {
+        margin: 0;
+        padding: 20px 0;
+    }
 }
