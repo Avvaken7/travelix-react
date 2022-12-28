@@ -6,7 +6,6 @@ import './mainHeader.css';
 const MainHeader = () => {
     return (
         <main className='container'>
-            <div className="square"></div>
             <div className="main_text">
                 <img src="./images/sun_left.svg" className="position-images" alt="sun-left" /> 
                 <img src="./images/sun_right.svg" className="position-images" alt="sun-right" />                 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'react-carousel3';
+import Carousel from 'nuka-carousel/lib/carousel';
 import StarRating from '../../rating/StarRating';
 
 
@@ -44,41 +44,32 @@ const feedbackCards = [
     }
 ]
 
-const style = {
-    width: '33vw',
-    marginLeft: '90px'
-};
-
-
 const FeedbackCards = () => {
     return (
         <>
-            <div
-                style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                }}
-            >
-                <Carousel height={'900px'} width={'78vw'} yOrigin={42} yRadius={48}>
-                    {
-                        feedbackCards.map((item, index) => (
-                            <div key={index} style={style}>
-                                <div className="feedback_testimonials">
-                                    <div className="feedback_image">
-                                        <img src={item.img} className="feedback_image" alt={item.alt} />
-                                    </div>
-                                    <div className="feedback_block">
-                                        <StarRating />
-                                        <p className="descr-text">{item.descr}</p>
-                                        <p className='color-text'>{item.text}</p>
-                                        <span className="feedback_block-descr">{item.job}</span>
-                                    </div>
+            <Carousel 
+                defaultControlsConfig={{
+                    nextButtonClassName: 'arrow_next',
+                    prevButtonClassName: 'arrow_prev',
+                }}>
+                {
+                    feedbackCards.map((item, index) => (
+                        <div key={index}>
+                            <div className="feedback_testimonials">
+                                <div className="feedback_image">
+                                    <img src={item.img} className="feedback_image" alt={item.alt} />
+                                </div>
+                                <div className="feedback_block">
+                                    <StarRating />
+                                    <p className="descr-text">{item.descr}</p>
+                                    <p className='color-text'>{item.text}</p>
+                                    <span className="feedback_block-descr">{item.job}</span>
                                 </div>
                             </div>
-                        ))
-                    }
-                </Carousel>
-            </div>
+                        </div>
+                    ))
+                }
+            </Carousel>
         </>
     )
 

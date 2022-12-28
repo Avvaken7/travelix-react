@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../helpers/Button/Button';
 
 import './cardSliderComponent.css';
 
@@ -16,7 +17,8 @@ const CardSliderComponent = ({ img, alt, title, price, description, rating, view
                 {rating}
                 <span className="slider_card-view">{view}k Review</span>
             </div>
-            <a href="/" className="nav-link">View Details</a>
+            {/* <a href="/" className="nav-link">View Details</a> */}
+            <Button variant="unFill" value="View Details" />
         </div>
 
     )

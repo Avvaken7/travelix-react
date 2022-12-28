@@ -1,6 +1,6 @@
 .feedback_testimonials {
     text-align: center;
-    min-height: 90vh;
+    min-height: 70vh;
 }
 
 .feedback_image {
@@ -26,6 +26,16 @@
 .feedback_block .star-rating {
     margin-right: 0;
 }
+
+.arrow_prev {
+    background: url('../../../../public/images/left_arrow.svg');
+}
+
+.arrow_next {
+
+}
+
+
 
 /**Media queries**/
 

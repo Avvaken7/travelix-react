@@ -11,7 +11,7 @@
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1130px;
     margin: 0 auto;
 }
 
@@ -42,6 +42,31 @@
 .color-text {
     color: #DB6300;
     font-weight: 700;
+}
+
+/**Style for dots in slider**/
+
+.paging-dot {
+    vertical-align: middle;
+    fill: rgb(229, 229, 229);
+    width: 16px;
+    height: 16px;
+    transition: width .3s;
+}
+
+button[aria-selected="true"] .paging-dot {
+
+    fill: rgb(219, 99, 0);
+    width: 24px;
+    height: 24px;
+}
+
+
+
+@media (max-width: 1280px) {
+    .container {
+        padding: 0 20px;
+    }
 }
 
 @media (max-width: 768px), (max-width: 1024px) {

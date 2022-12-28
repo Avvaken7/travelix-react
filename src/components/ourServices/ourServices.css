@@ -11,13 +11,13 @@
 .services_text img:nth-child(1) {
     position: absolute;
     top: -142px;
-    left: -365px;
+    left: -20.4vw;
 }
 
 .services_text img:nth-child(2) {
     position: absolute;
     top: 0;
-    right: -366px;
+    right: -20.1vw;
 }
 
 .services_text h2 {
@@ -47,7 +47,7 @@
 }
 
 /**Media queries**/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1440px) {
     .services_text img {
         display: none;
     }
@@ -66,17 +66,9 @@
     }
 
     .services-cards_item {
-        min-width: 40%;
-    }
-
-    .services-cards_item:nth-child(2) {
+        min-width: 50%;
         margin: 0 0 40px 0;
     }
-
-    .services-cards_item:nth-child(1) {
-        margin: 0 30px 40px 0;
-    }
-
 }
 
 @media (max-width: 424px){

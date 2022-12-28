@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../helpers/Button/Button';
 
 import './navigation.css'
 
@@ -26,7 +27,7 @@ const Navigation = () => {
                         {
                             listItems.map((item, index) => {
                                 return <li key={index}>
-                                    <a href="#" className='menu-item'>{item}</a>
+                                    <a href="#" className='menu-item'>{item}</a>                                    
                                 </li>
                             })
                         }
@@ -38,7 +39,10 @@ const Navigation = () => {
                             listItems.map((item, index) => {
                                 if (listItems.length - 1 === index) {
                                     return <li className='nav_item' key={index}>
-                                        <a href="#" className='nav_link-btn' >{item}</a>
+                                        <Button
+                                            variant={'fill'}
+                                            value={`${item}`}
+                                        />
                                     </li>
                                 } else {
                                     return <li className='nav_item' key={index}>

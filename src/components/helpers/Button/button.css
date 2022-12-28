@@ -1,0 +1,35 @@
+.btnLinkFill {
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #DB6300;
+    padding: 11px 54px;
+    background-color: #DB6300;
+    color: #fff;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.btnLinkFill:hover {
+    transition: all 0.6s cubic-bezier(0, 0, 0.23, 1);
+    background-color: transparent;
+    border: 1px solid #DB6300;
+    color: #DB6300;
+    cursor: pointer;
+}
+
+.btnLinkUnFill {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #DB6300;
+    padding: 12px 33px;
+    color: #DB6300;
+    font-weight: 700;
+}
+
+.btnLinkUnFill:hover {
+    transition: all 0.6s cubic-bezier(0, 0, 0.23, 1);
+    color: #fff;
+    background-color: #DB6300;
+    cursor: pointer;
+}    

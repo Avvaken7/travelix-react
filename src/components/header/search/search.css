@@ -59,6 +59,13 @@ input[type="text"]::placeholder {
     color: #CACACA;
 }
 
+@media (max-width: 1280px) {
+    fieldset {
+        margin: 0 auto;
+        padding: 8px 11px;
+    }
+}
+
 @media (max-width: 768px) {
 
     fieldset {
@@ -78,7 +85,8 @@ input[type="text"]::placeholder {
         align-items: initial;
     }
 
-    input[type="text"], input[type="date"] {
+    input[type="text"],
+    input[type="date"] {
         max-width: none;
         width: 97%;
         padding: 0.7em 0.7em;
@@ -87,7 +95,9 @@ input[type="text"]::placeholder {
 }
 
 @media (max-width: 425px) {
-    input[type="text"], input[type="date"] {
+
+    input[type="text"],
+    input[type="date"] {
         width: 93%;
     }
 }

@@ -1,5 +1,6 @@
 .feedback {
     background-color: #FFFBF3;
+    overflow: hidden;
 }
 
 .feedback_text {
@@ -8,7 +9,7 @@
 }
 
 /**Media queries**/
-@media screen and (min-width: 325px) and (max-width: 1024px) {
+@media screen and (min-width: 325px) and (max-width: 768px) {
     .feedback {
         display: none;
     }

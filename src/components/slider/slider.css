@@ -5,11 +5,12 @@
 .card-slider_items {
     display: flex;
     flex-direction: row;
+    gap: 15px;
 }
 
 /**Media Queries**/
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
 
     .card-slider_items {
         display: flex;

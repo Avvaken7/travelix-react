@@ -48,7 +48,12 @@
     margin-top: 0;
     margin-bottom: 8px;
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
 
     .choose {
         gap: 0;

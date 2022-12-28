@@ -1,10 +1,5 @@
-.slider_card {
-    margin-right: 30px;
-    border-radius: 16px;
-}
-
-.slider_card:last-child {
-    margin-right: 0;
+.slider_card {  
+    width: 270px;
 }
 
 .slider_card-head {
