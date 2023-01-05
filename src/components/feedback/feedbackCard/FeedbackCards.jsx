@@ -47,11 +47,18 @@ const feedbackCards = [
 const FeedbackCards = () => {
     return (
         <>
-            <Carousel 
-                defaultControlsConfig={{
-                    nextButtonClassName: 'arrow_next',
-                    prevButtonClassName: 'arrow_prev',
-                }}>
+            <Carousel
+                renderCenterLeftControls={({ previousDisabled, previousSlide }) => (
+                    <button onClick={previousSlide}>
+                        <i className="arrow_prev"></i>
+                    </button>
+                )}
+                renderCenterRightControls={({ nextDisabled, nextSlide }) => (
+                    <button onClick={nextSlide}>
+                        <i className="arrow_next"></i>
+                    </button>
+                )}
+            >
                 {
                     feedbackCards.map((item, index) => (
                         <div key={index}>

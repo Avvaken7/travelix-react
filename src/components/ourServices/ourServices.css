@@ -47,14 +47,30 @@
 }
 
 /**Media queries**/
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 1023.98px) and (max-width: 1920px) {
     .services_text img {
         display: none;
     }
-    
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 767.97px) and (max-width: 1023.97px) {
+    .services_text img {
+        display: none;
+    }
+
+    .service_cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .services-cards_item {
+        max-width: 35%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767.96px) {
 
     .services_text img {
         display: none;

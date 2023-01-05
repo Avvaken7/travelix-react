@@ -59,6 +59,10 @@ input[type="text"]::placeholder {
     color: #CACACA;
 }
 
+input[type="date"] {
+    color: #CACACA;
+}
+
 @media (max-width: 1280px) {
     fieldset {
         margin: 0 auto;

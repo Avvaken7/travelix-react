@@ -6,6 +6,7 @@ import StarRating from '../rating/StarRating';
 import './slider.css';
 
 
+
 const Slider = () => {
 
     const sliderImages = [
